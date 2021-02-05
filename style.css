@@ -1,0 +1,144 @@
+body{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+}
+header{
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    background-color:yellow;
+    justify-content: space-around;
+    
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+ul{
+    display: flex;
+    justify-content: space-between;
+    font-family: cursive;
+    font-style: initial;
+    width: 50%;
+    list-style: none;
+}
+.innovation{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+.innovation h1{
+    margin-bottom: 40px;
+    font-style: normal;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+.explore-btn{
+    position: absolute;
+    color: green;
+    bottom: 0px;
+    margin-bottom: 10px;
+    border: none;
+    font-size: 30px;
+    border-radius: 50%;
+
+}
+.explore-btn:hover{
+    color: red;
+    background-color: yellow;
+
+
+}
+#logo{
+    height: 80px; 
+}
+.middle{
+    height: 400px;
+}
+.info{
+    text-align: center;
+
+}
+.about1,.about2{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    place-items: initial;
+    text-align: center;
+}
+.lorem{
+    height: 150px;
+    width: 300px;
+    margin: 15px;
+
+}
+.picture{
+    display: flex;
+    height: 400px;
+    background-image: url("./lycs-architecture-U2BI3GMnSSE-unsplash.jpg");
+    background-position: center;
+    background-size: initial;
+    background-repeat: no-repeat;
+    align-items: center;
+    justify-content: center;
+}
+.play{
+    color: red;
+    padding:20px;
+    border-radius: 50%;
+    border: none;
+
+}
+.play:hover{
+    background: red;
+    color: white;
+}
+.services{
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.cards{
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.area{
+    border: 5px solid gray;
+    width: 80%;
+    height: 400px;
+    box-shadow: gray;
+}
+
+
+.one{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+
+}
+
+footer{
+    display: flex;
+    height: 205px;
+    background-color: black;
+    color: wheat;
+    justify-content: space-between;
+}
+
+.final li{
+    padding: 10px;
+}
+.contacts{
+    display: flex;
+    flex-direction: column;
+    
+}
